@@ -1,0 +1,21 @@
+
+/* ocultamos la barra del footer */
+.login-page .main-footer{
+    display: none;
+}
+
+@media only screen and (max-width: 472px ) {
+    .login-page{
+        margin-top: 50%;
+    }    
+}
+.sweet-alert.sweetalert-lg { width: 800px; }
+
+.activo{
+    border: 1px solid red!important;
+    border-radius: 5px;
+   
+}
+.activo strong{
+    color: rgb(202, 179, 51);       
+}
